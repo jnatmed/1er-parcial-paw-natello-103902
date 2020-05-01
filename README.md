@@ -9,10 +9,9 @@ Primer Parcial 2020<h1><br>
 Desde el punto de vista de la cantidad de informacion, las cookies manejan informacion de un usuario y un dispositivo ya que corren del lado del cliente, sin embargo las sesiones manejan infomacion estadistica, es decir, los dispositivos y lugares desde los que se accedio a una sesion. <br>
 En este sentido, van a guardar la informacion de todas las cookies de los dispositivos en los que el usuario se loguea; por lo que la informacion manejada siempre sera mayor en la sesion.<br>
 
-En el contexto de la app de noticias, en las cookies guardare los clicks referidos a las noticias, dispositivo que usa, id del usuario (el cual no sera un apuntador directo a la DB sino, un ID encriptado),<br>
-En el lado de la sesiones: el id de session, todos los dispositivos que usa el usuario, noticias de interes, o palabras clave (tags), para saber que noticia es mas importante para el promedio de usuarios que busca este tipo de app.<br>
+En el contexto de la app de noticias, en las cookies guardare los clicks referidos a las noticias, dispositivo que usa, id del usuario (el cual no sera un apuntador directo a la DB sino, un ID encriptado)<br>
+En el lado de la sesiones: el id de session, todos los dispositivos que usa el usuario, noticias de interes, o palabras clave (tags), para saber que noticia es mas importante para el  usuarios que busca este tipo de app, y enviarle noticias relacionadas junto con la que peticiono.<br>
 
-Al usuario logeado, le mostraria informacion relacionada con las noticias que vio.<br>
 <h4>
 
 <h2>2. ¿Qué ventajas ofrece el uso de Virtualhost en el contexto de servidores Web (en gral y en particular para esta app)?<br></h2>
