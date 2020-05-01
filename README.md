@@ -37,7 +37,7 @@ En la app de noticias, las Vistas mostraran los resultados, que la Capa controla
 En terminos generales, el controlador recibira las peticiones GET sobre los articulos y pedira esa informacion a la capa de modelos. 
 La capa de modelo, tendra almacenada en su base de datos, los articulos y otra informacion referida al usuario. Aqui es donde tendre toda mi logica de negocios,  es decir, para brindar un ejemplo dependiendo del tipo de usuario (pago, o free) serviré la pagina o devolvere una respuesta de error al controlador, el cual verá, dependiente del tipo de error mostrar al usuario, usando la vista correspondiente.
 <h4><br>
-<img src="img/punto10-validadorCSSW3C.png" alt="validacion W3C">
+<img src="img/punto4ModeloMVC.jpeg" alt="validacion W3C">
 <h4>
 Se puede ver en el paso 4, que el modelo puede responder sirviendo la noticia o mostrando un mensaje de error, dependiendo de: el tipo de usuario (si es pago o no), si la noticia ya no exite o caduco, etc. 
 Hay que tener en cuenta que hay que validar todas las peticiones, preferentemente las haria en el modelo, pero si les aplico un filtro en la capa controladora puedo ahorrar procesamiento y tiempo. 
